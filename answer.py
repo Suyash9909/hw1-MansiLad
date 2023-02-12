@@ -124,7 +124,7 @@ def dictionary_nested():
 
     # Get the value of key "last_name" from the subdictionary of key "name" in dictionary Grace. (aka."Hopper")
 
-    last_name = ["name"]["last_name"]
+    last_name = Grace["name"]["last_name"]
 
     # Add "programmer" to the list that key "jobs" maps to.
     Grace['jobs'].append('programmer')
