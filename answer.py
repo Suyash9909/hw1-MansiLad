@@ -55,7 +55,7 @@ def list_1D():
 
     # Split variable hoboken on a delimiter(comma) into a list of substrings and assign it to a new variable hoboken_list.
 
-    hoboken_list = s.split(",")
+    hoboken_list = hoboken.split(",")
 
     # Get the first item in the hoboken_list and assign it to a new variable hoboken_first_item.
 
@@ -87,7 +87,7 @@ def list_2D():
 
     # Get the item at the last row and last column of A.
 
-    a = A[2][2]
+    a = last_column[-1]
 
     # Get the item at row 2 and column 1 of A.
 
