@@ -33,7 +33,7 @@ def strings():
 
     # Concatenate variable stevens with string " is great" and assign it to variable great.
 
-    great = stevens + "is great"
+    great = stevens + " is great"
 
     # Replace "great" with "good" in variable great and assign it to a new variable good.
 
@@ -54,7 +54,7 @@ def list_1D():
 
     # Split variable hoboken on a delimiter(comma) into a list of substrings and assign it to a new variable hoboken_list.
 
-    hoboken_list = s.split()
+    hoboken_list = s.split(",")
 
     # Get the first item in the hoboken_list and assign it to a new variable hoboken_first_item.
 
@@ -111,9 +111,10 @@ def dictionary():
     f = fruit_dict["fruit"]
 
     # Increase the value that key "quantity" map to by 1.
-
+    fruit_dict['quantity'] += 1
 
     return fruit_dict, f
+    
 def dictionary_nested():
     # Create a nested dictionary Grace where:
     #   "name" => {"first_name" => "Grace", "last_name" => "Hopper"} (a dictionary)
