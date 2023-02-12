@@ -11,7 +11,8 @@ def number():
     # Write the value 4 to the power of 5 and assign it to variable x.
     x = 4 ** 5
     # Write the value x divided by 3 and assign it to variable y.
-    y = x // 3
+    y = x / 3
+
     return x,y
 
 def strings():
@@ -37,7 +38,7 @@ def strings():
 
     # Replace "great" with "good" in variable great and assign it to a new variable good.
 
-    good = stevens.replace("great", "good")
+    good = great.replace("great", "good")
 
     return stevens, stevens_7, length, great, good
 
@@ -68,7 +69,7 @@ def list_1D():
 
     # Get the 4th to 10th item in sorted list l and assign them to a new list new_l.
 
-    new_l = l[3:11]
+    new_l = l[3:10]
 
     return hoboken,hoboken_list, hoboken_first_item, l, new_l
 
@@ -114,7 +115,7 @@ def dictionary():
     fruit_dict['quantity'] += 1
 
     return fruit_dict, f
-    
+
 def dictionary_nested():
     # Create a nested dictionary Grace where:
     #   "name" => {"first_name" => "Grace", "last_name" => "Hopper"} (a dictionary)
